@@ -22,9 +22,6 @@ def login(projectName):
     repo = browser.find_element_by_xpath('//*[@id="repository_name"]')
     repo.send_keys(projectName)
 
-    #readme = browser.find_element_by_xpath('//*[@id="repository_auto_init"]')
-    #readme.click()
-
     create_repo = browser.find_element_by_css_selector('button.first-in-line')
     create_repo.submit()
     time.sleep(.5)

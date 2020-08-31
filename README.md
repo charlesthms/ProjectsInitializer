@@ -1,1 +1,1 @@
-# ProjectsInitializer
+# ProjectsInitializer with Python and Bash
